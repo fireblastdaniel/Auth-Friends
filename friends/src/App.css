@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +33,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.login{
+  width: 400px;
+  margin:200px auto;
+}
+
+.login-form{
+  display: flex;
+  flex-direction: column;
+}
+
+label{
+  margin-bottom: 10px;
+}
+
+.submit-btn{
+  width: 100px;
+  margin-left: 100px;
 }
