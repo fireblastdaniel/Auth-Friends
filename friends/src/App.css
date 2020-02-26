@@ -53,3 +53,26 @@ label{
   width: 100px;
   margin-left: 100px;
 }
+
+.delete-btn{
+  position: relative;
+  left: 370px;
+  bottom: 30px;
+}
+
+.delete-btn:hover{
+  color: red;
+  cursor: pointer;
+}
+
+.friend-card{
+  border: 1px solid black;
+  border-radius: 12px;
+  padding: 5px;
+  margin: 10px;
+  width: 400px;
+}
+
+.friend-card p{
+  margin: 0;
+}
